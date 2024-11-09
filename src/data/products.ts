@@ -1,0 +1,347 @@
+import type { Product } from '../types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: '1',
+    name: 'Disc Necklace',
+    description: 'Personalized disc necklace in sterling silver',
+    images: [
+      'src/products/disc_necklace/disc01.jpg',
+      'src/products/disc_necklace/disc02.jpg',
+      'src/products/disc_necklace/disc03.jpg',
+      'src/products/disc_necklace/disc04.jpg',
+      'src/products/disc_necklace/disc05.jpg',
+      'src/products/disc_necklace/disc06.jpg',
+      'src/products/disc_necklace/disc07.jpg',
+      'src/products/disc_necklace/disc08.jpg',
+      'src/products/disc_necklace/disc09.jpg',
+      'src/products/disc_necklace/disc10.jpg',
+    ],
+    templates: {
+      primary: 'src/backgrounds/disc_template.png'
+    },
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1306522820',
+  },
+  {
+    id: '2',
+    name: 'Mini Tag Necklace',
+    description: 'Personalized mini tag necklace in sterling silver',
+    images: [
+      'src/products/minitag_necklace/minitag01.jpg',
+      'src/products/minitag_necklace/minitag02.jpg',
+      'src/products/minitag_necklace/minitag03.jpg',
+      'src/products/minitag_necklace/minitag04.jpg',
+      'src/products/minitag_necklace/minitag05.jpg',
+      'src/products/minitag_necklace/minitag06.jpg',
+      'src/products/minitag_necklace/minitag07.jpg',
+      'src/products/minitag_necklace/minitag08.jpg',
+      'src/products/minitag_necklace/minitag09.jpg',
+      'src/products/minitag_necklace/minitag10.jpg',
+    ],
+    templates: {
+      primary: 'src/backgrounds/mini_tag_template.png',
+      secondary: 'src/backgrounds/minitag-vertical.png'
+    },
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1607366932',
+  },
+  {
+    id: '3',
+    name: 'Heart Necklace',
+    description: 'Personalized heart necklace in sterling silver',
+    images: [
+      'src/products/big_heart_necklace/bigheart01.jpg',
+      'src/products/big_heart_necklace/bigheart02.jpg',
+      'src/products/big_heart_necklace/bigheart03.jpg',
+      'src/products/big_heart_necklace/bigheart04.jpg',
+      'src/products/big_heart_necklace/bigheart05.jpg',
+      'src/products/big_heart_necklace/bigheart06.jpg',
+      'src/products/big_heart_necklace/bigheart07.jpg',
+      'src/products/big_heart_necklace/bigheart08.jpg',
+      'src/products/big_heart_necklace/bigheart09.jpg',
+      'src/products/big_heart_necklace/bigheart10.jpg',
+    ],
+    templates: {
+      primary: 'src/backgrounds/heart-big-template.png'
+    },
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1310933952',
+  },
+  {
+    id: '4',
+    name: 'Minimalist Heart Necklace',
+    description: 'Personalized heart necklace in sterling silver',
+    images: [
+      'src/products/mini_heart_necklace/miniHeart01.jpg',
+      'src/products/mini_heart_necklace/miniHeart02.jpg',
+      'src/products/mini_heart_necklace/miniHeart03.jpg',
+      'src/products/mini_heart_necklace/miniHeart04.jpg',
+      'src/products/mini_heart_necklace/miniHeart05.jpg',
+      'src/products/mini_heart_necklace/miniHeart06.jpg',
+      'src/products/mini_heart_necklace/miniHeart07.jpg',
+      'src/products/mini_heart_necklace/miniHeart08.jpg',
+      'src/products/mini_heart_necklace/miniHeart09.jpg',
+      'src/products/mini_heart_necklace/miniHeart10.jpg',
+    ],
+    templates: {
+      primary: 'src/backgrounds/heart-mini-template.png'
+    },
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1323991541',
+  },
+  {
+    id: '5',
+    name: 'Bar Necklace',
+    description: 'Personalized bar necklace in sterling silver',
+    images: [
+      'src/products/bar_necklace/barv01.jpg',
+      'src/products/bar_necklace/barv02.jpg',
+      'src/products/bar_necklace/barv03.jpg',
+      'src/products/bar_necklace/barv04.jpg',
+      'src/products/bar_necklace/barv05.jpg',
+      'src/products/bar_necklace/barv06.jpg',
+      'src/products/bar_necklace/barv07.jpg',
+      'src/products/bar_necklace/barv08.jpg',
+      'src/products/bar_necklace/barv09.jpg',
+      'src/products/bar_necklace/barv10.jpg',
+    ],
+    templates: {
+      primary: 'src/backgrounds/bar-template.png'
+    },
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1621578969',
+  },
+  {
+    id: '6',
+    name: 'Vertical Bar Necklace',
+    description: 'Personalized vertical bar necklace in sterling silver',
+    images: [
+      'src/products/vertical_bar_necklace/barvv01.jpg',
+      'src/products/vertical_bar_necklace/barvv02.jpg',
+      'src/products/vertical_bar_necklace/barvv03.jpg',
+      'src/products/vertical_bar_necklace/barvv04.jpg',
+      'src/products/vertical_bar_necklace/barvv05.jpg',
+      'src/products/vertical_bar_necklace/barvv06.jpg',
+      'src/products/vertical_bar_necklace/barvv07.jpg',
+      'src/products/vertical_bar_necklace/barvv08.jpg',
+      'src/products/vertical_bar_necklace/barvv09.jpg',
+      'src/products/vertical_bar_necklace/barvv10.jpg',
+    ],
+    templates: {
+      primary: 'src/backgrounds/barV-horizontal-template.png',
+      secondary: 'src/backgrounds/barV-vertical-template.png'
+    },
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1808801831',
+  },
+  {
+    id: '7',
+    name: 'Dog Bone Necklace',
+    description: 'Personalized dog bone necklace in sterling silver',
+    images: [
+      'src/products/dog_bone_necklace/dogBone01.jpg',
+      'src/products/dog_bone_necklace/dogBone02.jpg',
+      'src/products/dog_bone_necklace/dogBone03.jpg',
+      'src/products/dog_bone_necklace/dogBone04.jpg',
+      'src/products/dog_bone_necklace/dogBone05.jpg',
+      'src/products/dog_bone_necklace/dogBone06.jpg',
+      'src/products/dog_bone_necklace/dogBone07.jpg',
+      'src/products/dog_bone_necklace/dogBone08.jpg',
+      'src/products/dog_bone_necklace/dogBone09.jpg',
+      'src/products/dog_bone_necklace/dogBone10.jpg',
+    ],
+    templates: {
+      primary: 'src/backgrounds/dog_bone_template.png'
+    },
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1464746835',
+  },
+  {
+    id: '8',
+    name: 'Name Necklace',
+    description: 'Personalized name necklace in sterling silver',
+    images: [
+      'src/products/name_necklace/name01.jpg',
+      'src/products/name_necklace/name02.jpg',
+      'src/products/name_necklace/name03.jpg',
+      'src/products/name_necklace/name04.jpg',
+      'src/products/name_necklace/name05.jpg',
+      'src/products/name_necklace/name06.jpg',
+      'src/products/name_necklace/name07.jpg',
+      'src/products/name_necklace/name08.jpg',
+      'src/products/name_necklace/name09.jpg',
+      'src/products/name_necklace/name10.jpg',
+      'src/products/name_necklace/name11.jpg',
+    ],
+    templates: {
+      primary: 'src/backgrounds/name_template.png'
+    },
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1317608943',
+  },
+  {
+    id: '9',
+    name: 'First Steps Necklace',
+    description: 'Personalized first steps remembrance necklace in sterling silver',
+    images: [
+      'src/products/first_steps_necklace/firstStep01.jpg',
+      'src/products/first_steps_necklace/firstStep02.jpg',
+      'src/products/first_steps_necklace/firstStep03.jpg',
+      'src/products/first_steps_necklace/firstStep04.jpg',
+      'src/products/first_steps_necklace/firstStep05.jpg',
+      'src/products/first_steps_necklace/firstStep06.jpg',
+      'src/products/first_steps_necklace/firstStep07.jpg',
+      'src/products/first_steps_necklace/firstStep08.jpg',
+      'src/products/first_steps_necklace/firstStep09.jpg',
+      'src/products/first_steps_necklace/firstStep10.jpg',
+      'src/products/first_steps_necklace/firstStep11.jpg',
+    ],
+    templates: {
+      primary: 'src/backgrounds/first_steps.png'
+    },
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1382715271',
+  },
+  {
+    id: '10',
+    name: 'Cross Necklace',
+    description: 'Personalized cross necklace in sterling silver',
+    images: [
+      'src/products/cross_necklace/cross01.jpg',
+      'src/products/cross_necklace/cross02.jpg',
+      'src/products/cross_necklace/cross03.jpg',
+      'src/products/cross_necklace/cross04.jpg',
+      'src/products/cross_necklace/cross05.jpg',
+      'src/products/cross_necklace/cross06.jpg',
+      'src/products/cross_necklace/cross07.jpg',
+      'src/products/cross_necklace/cross08.jpg',
+      'src/products/cross_necklace/cross09.jpg',
+      'src/products/cross_necklace/cross10.jpg',
+    ],
+    templates: {
+      primary: 'src/backgrounds/cross_horizontal.png',
+      secondary: 'src/backgrounds/cross_vertical.png'
+    },
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1303563082',
+  },
+  {
+    id: '11',
+    name: 'Extender Chain',
+    description: 'Sterling silver extender 2-3-4-5 inches chain',
+    images: [
+      'src/products/extender/extender01.jpg',
+      'src/products/extender/extender02.jpg',
+      'src/products/extender/extender03.jpg',
+      'src/products/extender/extender04.jpg',
+    ],
+    templates: {}, // Product without templates
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1585302641',
+  },
+  {
+    id: '12',
+    name: 'Necklace Detangler',
+    description: 'Sterling silver necklace detangler',
+    images: [
+      'src/products/detangler/detangler01.jpg',
+      'src/products/detangler/detangler02.jpg',
+      'src/products/detangler/detangler03.jpg',
+      'src/products/detangler/detangler04.jpg',
+      'src/products/detangler/detangler05.jpg',
+    ],
+    templates: {}, // Product without templates
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1338843151',
+  },
+  {
+    id: '13',
+    name: 'Tree of Life Necklace',
+    description: 'Sterling silver Tree of Life Necklace',
+    images: [
+      'src/products/tree_of_life_necklace/tree_of_life01.jpg',
+      'src/products/tree_of_life_necklace/tree_of_life02.jpg',
+      'src/products/tree_of_life_necklace/tree_of_life03.jpg',
+      'src/products/tree_of_life_necklace/tree_of_life04.jpg',
+      'src/products/tree_of_life_necklace/tree_of_life05.jpg',
+    ],
+    templates: {}, // Product without templates
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1446134493',
+  },
+  {
+    id: '14',
+    name: 'Lotus Necklace',
+    description: 'Sterling silver lotus necklace',
+    images: [
+      'src/products/lotus_necklace/lotus01.jpg',
+      'src/products/lotus_necklace/lotus02.jpg',
+      'src/products/lotus_necklace/lotus03.jpg',
+      'src/products/lotus_necklace/lotus04.jpg',
+      'src/products/lotus_necklace/lotus05.jpg',
+      'src/products/lotus_necklace/lotus06.jpg',
+      'src/products/lotus_necklace/lotus07.jpg',
+      'src/products/lotus_necklace/lotus08.jpg',
+      'src/products/lotus_necklace/lotus09.jpg',
+    ],
+    templates: {}, // Product without templates
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1397971057',
+  },
+  {
+    id: '15',
+    name: 'French Bulldog Necklace',
+    description: 'Sterling silver french bulldog necklace',
+    images: [
+      'src/products/french_bulldog/frenchBulldog01.jpg',
+      'src/products/french_bulldog/frenchBulldog02.jpg',
+      'src/products/french_bulldog/frenchBulldog03.jpg',
+      'src/products/french_bulldog/frenchBulldog04.jpg',
+      'src/products/french_bulldog/frenchBulldog05.jpg',
+      'src/products/french_bulldog/frenchBulldog06.jpg',
+      'src/products/french_bulldog/frenchBulldog07.jpg',
+      'src/products/french_bulldog/frenchBulldog08.jpg',
+    ],
+    templates: {}, // Product without templates
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1397982857',
+  },
+  {
+    id: '16',
+    name: 'Tiger Eye Necklace',
+    description: 'Sterling silver tiger eye necklace',
+    images: [
+      'src/products/tiger_eye_necklace/tigerEye01.jpg',
+      'src/products/tiger_eye_necklace/tigerEye02.jpg',
+      'src/products/tiger_eye_necklace/tigerEye03.jpg',
+      'src/products/tiger_eye_necklace/tigerEye04.jpg',
+      'src/products/tiger_eye_necklace/tigerEye05.jpg',
+    ],
+    templates: {}, // Product without templates
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1450527802',
+  },
+  {
+    id: '17',
+    name: 'Pearl Necklace',
+    description: 'Dainty pearl necklace',
+    images: [
+      'src/products/pearl_necklace/pearl01.jpg',
+      'src/products/pearl_necklace/pearl02.jpg',
+      'src/products/pearl_necklace/pearl03.jpg',
+      'src/products/pearl_necklace/pearl04.jpg',
+      'src/products/pearl_necklace/pearl05.jpg',
+    ],
+    templates: {}, // Product without templates
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1783460390',
+  },
+  {
+    id: '18',
+    name: 'Birthstone Earings',
+    description: 'Sterling silver birthstone earings',
+    images: [
+      'src/products/birthstone_earings/birthstoneEarings01.jpg',
+      'src/products/birthstone_earings/birthstoneEarings02.jpg',
+      'src/products/birthstone_earings/birthstoneEarings03.jpg',
+      'src/products/birthstone_earings/birthstoneEarings04.jpg',
+      'src/products/birthstone_earings/birthstoneEarings05.jpg',
+      'src/products/birthstone_earings/birthstoneEarings06.jpg',
+      'src/products/birthstone_earings/birthstoneEarings07.jpg',
+      'src/products/birthstone_earings/birthstoneEarings08.jpg',
+      'src/products/birthstone_earings/birthstoneEarings09.jpg',
+      'src/products/birthstone_earings/birthstoneEarings10.jpg',
+      'src/products/birthstone_earings/birthstoneEarings11.jpg',
+      'src/products/birthstone_earings/birthstoneEarings12.jpg',
+      'src/products/birthstone_earings/birthstoneEarings13.jpg',
+      'src/products/birthstone_earings/birthstoneEarings14.jpg',
+      'src/products/birthstone_earings/birthstoneEarings15.jpg',
+    ],
+    templates: {}, // Product without templates
+    etsyLink: 'https://goldenmelodyjewelry.etsy.com/listing/1343708984',
+  },
+];
