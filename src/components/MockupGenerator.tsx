@@ -179,7 +179,7 @@ export const MockupGenerator: React.FC = () => {
 
       if (mockupCount === 0) {
         message = `🎉 Congrats on your first mockup! 🎉  
-      🎁 **FREE BACKSIDE ENGRAVING** for first-time users! 🎁   
+      🎁 **FREE BACKSIDE ENGRAVING** for mockup designers! 🎁   
       👉 Create your backside engraving mockup now! ✨`;
       } else if (mockupCount === 4) {
         message = `💪 Great job! You've created 5 mockups. 
