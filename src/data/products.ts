@@ -58,7 +58,6 @@ export const PRODUCTS: Product[] = [
       '/products/big_heart_necklace/bigheart07.jpg',
       '/products/big_heart_necklace/bigheart08.jpg',
       '/products/big_heart_necklace/bigheart09.jpg',
-      '/products/big_heart_necklace/bigheart10.jpg',
     ],
     templates: {
       primary: '/backgrounds/heart-big-template.png'
@@ -79,7 +78,6 @@ export const PRODUCTS: Product[] = [
       '/products/mini_heart_necklace/miniHeart07.jpg',
       '/products/mini_heart_necklace/miniHeart08.jpg',
       '/products/mini_heart_necklace/miniHeart09.jpg',
-      '/products/mini_heart_necklace/miniHeart10.jpg',
     ],
     templates: {
       primary: '/backgrounds/heart-mini-template.png'
